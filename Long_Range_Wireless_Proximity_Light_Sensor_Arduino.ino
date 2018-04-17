@@ -42,11 +42,11 @@ void loop()
   Serial.print("Firmware Version  ");
   Serial.println(data[17]);
   Serial.print("Proximity Counts :");
-  Serial.print(Proximity);
-  Serial.println(" Counts");
+  Serial.println(Proximity);
+  Serial.print(" Counts");
   Serial.print("Ambient Light :");
-  Serial.print(light);
-  Serial.println("Lux");
+  Serial.println(light);
+  Serial.print("Lux");
   Serial.print("ADC value:");
   Serial.println(battery);
   Serial.print("Battery Voltage:");
